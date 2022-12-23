@@ -21,6 +21,7 @@ const App: () => Node = () => {
                 <Tab.Screen name="Scanner"
                             options={{
                                 tabBarLabel: 'Сканер',
+                                headerTitle: '',
                                 tabBarIcon: ({ focused, color, size }) => {
                                     return <MaterialCommunityIcons name="barcode-scan" color={color} size={size}/>;
                                 },
@@ -29,6 +30,7 @@ const App: () => Node = () => {
                 <Tab.Screen name="Cart"
                             options={{
                                 tabBarLabel: 'Корзина',
+                                headerTitle: '',
                                 tabBarIcon: ({ focused, color, size }) => {
                                     return <FontAwesomeIcons name="shopping-basket" color={color} size={size}/>;
                                 },
@@ -37,6 +39,7 @@ const App: () => Node = () => {
                 <Tab.Screen name="Documents"
                             options={{
                                 tabBarLabel: 'Документы',
+                                headerTitle: '',
                                 tabBarIcon: ({ focused, color, size }) => {
                                     return <MaterialCommunityIcons name="format-list-bulleted" color={color} size={size}/>;
                                 },
@@ -45,6 +48,7 @@ const App: () => Node = () => {
                 <Tab.Screen name="PriceTags"
                             options={{
                                 tabBarLabel: 'Ценники',
+                                headerTitle: '',
                                 tabBarIcon: ({ focused, color, size }) => {
                                     return <IoniconsIcons name="ios-pricetags-outline" color={color} size={size}/>;
                                 },
@@ -53,6 +57,7 @@ const App: () => Node = () => {
                 <Tab.Screen name="Other"
                             options={{
                                 tabBarLabel: 'Другое',
+                                headerTitle: '',
                                 tabBarIcon: ({ focused, color, size }) => {
                                     return <MaterialCommunityIcons name="menu" color={color} size={size}/>;
                                 },
